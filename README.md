@@ -66,7 +66,7 @@ This Project is a simulation of an Automated Teller Machine (ATM ) system. It al
         CREATE TABLE signuptwo(formno varchar(20), religion varchar(20), category varchar(20), income varchar(20), education varchar(20), occupation varchar(20), pan varchar(20), aadhar varchar(20), seniorcitizen varchar(20), existingaccount varchar(20));
 
  ### 4. Create the third table to store the account information of user
-        CREATE TABLE signupthree(formno varchar(20), accountType varchar(40), cardnumber varchar(25), pin varchar(10), facility varchar(100)); 
+        CREATE TABLE signupthree(formno varchar(20), accountType varchar(40), cardnumber varchar(25), pin varchar(10); 
 
  ### 5. Create the Login table to store login information
         CREATE TABLE login(formno varchar(20), cardnumber varchar(25), pin varchar(10));
